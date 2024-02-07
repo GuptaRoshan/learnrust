@@ -1,3 +1,7 @@
+mod algorithms;
+
+use crate::algorithms::recursion;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Factorial {} ", recursion::factorial(5)); 
 }
